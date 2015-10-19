@@ -1,0 +1,22 @@
+# Android generated files #
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+*.apk
+*.ap_
+*.dex
+*.log
+/bin
+/gen
+# Android Studio Navigation editor temp files
+.navigation
+
+# OS generated files #
+######################
+ehthumbs.db
+Icon?
+Thumbs.db

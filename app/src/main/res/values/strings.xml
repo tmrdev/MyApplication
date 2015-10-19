@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Google+ Search</string>
+    <string name="action_settings">Settings</string>
+    <!-- start google plus auth -->
+    <string name="sign_out_button_name">Sign out</string>
+    <string name="revoke_access_button_name">Revoke</string>
+    <string name="status_sign_in_required">Sign-in required</string>
+    <string name="status_sign_in_error">Error signing in: %s</string>
+    <string name="status_revoke_access">Revoked access</string>
+    <string name="status_revoke_access_error">Error revoking access: %s</string>
+    <string name="unknown_person">Unknown</string>
+    <string name="play_services_error">Google Play services is not available.  This application will close.</string>
+    <string name="close">Close</string>
+    <!-- end google plus auth -->
+
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_search">Search Google+</string>
+    <string name="nav_item_contact">Contact</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_search</item>
+        <item>@string/nav_item_contact</item>
+    </string-array>
+
+    <string name="title_contact">Contact</string>
+    <string name="title_search">Search Google+</string>
+    <string name="title_home">Login</string>
+    <string name="no_network_connection">No network access. Please check your connection.</string>
+    <string name="google_search_error">An error occurred during the search. Please check your connection and try again.</string>
+
+    <!-- gcm strings -->
+    <string name="gcm_send_message">Token retrieved and sent to server! You can now use gcmsender to
+        send downstream messages to this app.</string>
+    <string name="registering_message">Generating InstanceID token...</string>
+    <string name="token_error_message">An error occurred while either fetching the InstanceID token,
+        sending the fetched token to the server or subscribing to the PubSub topic. Please try
+        running the sample again.</string>
+    <!-- end gcm strings -->
+
+    <!-- start preferences -->
+    <string name="preference_title">Settings</string>
+    <string name="search_result_total_title_list_preference">Total Search Results To Display</string>
+    <string name="search_based_preferences">Search Result Preferences</string>
+    <string name="summary_total_search_results">Select the total search results to be returned</string>
+    <string name="dialog_search_total_title_preference">Choose a total</string>
+
+
+    <string name="search_result_orederby_list_preference">Choose How Results Should Be Ordered</string>
+    <string name="summary_orderby_results">Select most recent results or best results</string>
+    <string name="dialog_search_orderby_preference">Choose how to order the results</string>
+
+    <!-- end preferences -->
+</resources>

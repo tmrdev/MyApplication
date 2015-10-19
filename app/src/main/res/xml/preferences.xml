@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- see FragmentPreference project for reference -->
+
+    <PreferenceCategory
+            android:title="@string/search_based_preferences">
+
+        <ListPreference
+                android:key="search_result_total_list_preference"
+                android:title="@string/search_result_total_title_list_preference"
+                android:summary="@string/summary_total_search_results"
+                android:entries="@array/entries_list_preference"
+                android:entryValues="@array/entryvalues_list_preference"
+                android:dialogTitle="@string/dialog_search_total_title_preference" />
+
+        <ListPreference
+                android:key="search_result_orderby_preference"
+                android:title="@string/search_result_orederby_list_preference"
+                android:summary="@string/summary_orderby_results"
+                android:entries="@array/entries_orderby_list_preference"
+                android:entryValues="@array/entryvalues_orderby_preference"
+                android:dialogTitle="@string/dialog_search_orderby_preference" />
+
+    </PreferenceCategory>
+    
+</PreferenceScreen>
